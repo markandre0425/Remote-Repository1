@@ -1,0 +1,8 @@
+2. Create a New File and Add Content1. Create a new file in the directory, e.g., `example.txt`.2. Add some content to `example.txt`.
+3. Add the File to the Staging Area1. Run: `sh git add example.txt`  This command stages `example.txt` for the next commit.
+4. Commit the Changes1. Run: `sh git commit -m "Initial commit with example.txt"`  This command commits the staged changes with a descriptive message.
+5. Create a Remote Repository1. Go to your GitHub account.2. Create a new repository (do not initialize with a README, .gitignore, or license).
+6. Add the Remote Repository1. Run: `sh git remote add origin <https://github.com/yourusername/your-repository-name.git>`  Replace `yourusername` and `your-repository-name` with your GitHub username and repository name.
+7. Push the Changes to the Remote Repository1. Run: `sh git push -u origin master`  This command pushes your local commits to the remote repository on the `master` branch.
+8. Clone the Repository1. To demonstrate cloning, navigate to a different directory (or delete your local repository).2. Run: `sh git clone <https://github.com/yourusername/your-repository-name.git>`  This command clones the repository to your local machine.
+9. Make Changes and Pull Updates1. Edit `example.txt` or create a new file in the cloned repository.2. Add and commit your changes as previously shown (`git add` and `git commit`).3. Push the changes: `sh git push` 4. To demonstrate `git pull`, have someone else make a change to the repository, or make a change directly on GitHub.5. Run: `sh git pull origin master`  This comm
